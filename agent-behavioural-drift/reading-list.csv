@@ -1,0 +1,20 @@
+work,year,role,reference,verification,status
+Leong — delayed memory poisoning (v2 / v3),2026,Memory layer; Study 2 baseline and Study 1 corpus,arXiv:2606.30566,FROM DECK — recheck ID,summarised in 02-prior-art
+AgentDrift (benchmark),2026,Execution layer; Study 1 corpus,arXiv:2609.06972,FROM DECK — recheck ID,summarised in 02-prior-art
+DriftNet (Pinjari & Saint-Germain),2026,Execution layer; Study 2 baseline,arXiv:2609.10892,FROM DECK — recheck ID,summarised in 02-prior-art
+LIDAR — Who Is Behind the Harness? (Wang et al.),2026,Identity layer; gap Study 1 occupies,arXiv:2609.28559,FROM DECK — recheck ID,summarised in 02-prior-art
+NeuroTaint — Ghost in the Agent,2026,Taint line; content-based upper bound,https://arxiv.org/html/2604.23374v1,VERIFIED,summarised in 02-prior-art
+APPA — taint confinement,2026,Taint line; content-free but single-run,https://arxiv.org/html/2607.24625v1,VERIFIED,summarised in 02-prior-art
+Lugoloobi et al. — passive model ID from browser UI traces,2026,Closest possible scoop of Study 1,,UNVERIFIED (deck footnote),to-read
+MemLineage,,Cross-session provenance (cited by APPA),,,to-read
+TaintBench,,Possible Study 2 data with published baseline,,,to-read
+FIDES,,NeuroTaint's baseline,,,to-read
+UNICORN,,Provenance IDS — per-entity baselining?,https://arxiv.org/pdf/2001.01525,,to-read
+Marlin,,Provenance IDS — per-entity baselining?,https://arxiv.org/pdf/2403.12541,,to-read
+Provenance IDS industrial evaluation,2026,Provenance IDS — per-entity baselining?,https://www.alphaxiv.org/abs/2603.22982,,to-read
+ProvDetector,,Provenance IDS — per-entity baselining?,,,to-read
+NoDoze,,Provenance IDS — per-entity baselining?,,,to-read
+ATLAS,,Provenance IDS — per-entity baselining?,,,to-read
+HOLMES,,Provenance IDS — per-entity baselining?,,,to-read
+SIGL,,Provenance IDS — per-entity baselining?,,,to-read
+CamFlow,,Provenance IDS — per-entity baselining?,,,to-read
