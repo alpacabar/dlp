@@ -1,0 +1,8 @@
+﻿Dimension,이로운앤컴퍼니 (eroun.ai),소만사 (Somansa),파수 (Fasoo),컴트루 (Comtrue),마크애니 (MarkAny),지란지교데이터 (Jiran),세이퍼존 (SaferZone)
+D1 Channel coverage,12%,69%,54%,58%,62%,73%,54%
+D2 Detection technique,42%,42%,42%,58%,25%,54%,13%
+D3 Enforcement,33%,78%,83%,89%,83%,83%,72%
+D4 AI-specific,65%,50%,55%,60%,45%,55%,40%
+D5 Ops & deployment,33%,67%,61%,56%,61%,44%,72%
+D6 Certification,29%,36%,36%,64%,71%,43%,43%
+Overall (60 items),35%,58%,55%,63%,56%,60%,48%

@@ -1,0 +1,8 @@
+﻿Vendor,AI score,Agent action,MCP,Advantage for the agentic era,What is missing
+컴트루 (Comtrue),77%,◐,◐,"LLM detection, masking, LLM API, on-prem AI; covers Claude Code, Codex, Cursor",Passive network; no clipboard / screen; no response check
+파수 (Fasoo),42%,◐,–,AI-R Gateway checks prompts and responses; DRM policy follows data into AI,No MCP mediation or prompt-injection detection
+이로운앤컴퍼니 (eroun.ai),38%,◐,–,"AI guardrail: prompt injection, usage budgets, full prompt + response log","Almost no USB, email, print or endpoint control"
+지란지교데이터 (Jiran),38%,◐,–,"OCR, NER and HWP detection; logs prompts and AI responses","No LLM API, MCP or prompt-injection checks; off-network unverified"
+마크애니 (MarkAny),31%,–,–,Endpoint enforcement on and off network; KCMVP crypto,Rule-based detection only; no agent controls
+소만사 (Somansa),27%,◐,–,Widest channel footprint; agent visibility announced (AIDR),AIDR not yet shipped; no response or injection check
+세이퍼존 (SaferZone),15%,–,–,"AI control works off-network on Windows, macOS and Linux","No ML or OCR detection; prompt-only, no agent controls"

@@ -1,0 +1,5 @@
+﻿Uncovered control,Why it matters for agents,Best coverage today,Opportunity for us
+MCP / tool-call mediation (D1-13),"Agents move data through tool calls, not file uploads",컴트루 ◐ only; others not found,Inline MCP proxy that inspects each tool call's arguments and results
+Agent action control (D4-05),Agents act without a user approving each step,"◐ at best (5 vendors); MarkAny, 세이퍼존 not found","Per-agent policy to allow, deny or require approval for each action"
+Exact data matching (D2-03),Agents query databases and can return real customer records,No vendor,"DB fingerprinting to catch real records in prompts, outputs and tool calls"
+AI response inspection (D4-03),Model output can carry sensitive data or injected instructions,"파수, 지란지교데이터 ●; 이로운앤컴퍼니 ◐",Check model output and tool results before they reach users or other tools

@@ -1,0 +1,8 @@
+﻿Dimension,What it measures,Items,Checklist items (examples)
+D1 Channel coverage,"Which exit routes the product can see: endpoint, network and AI channels",13,"USB, print, clipboard, screen capture, email, web upload, messenger, cloud, discovery, GenAI clients, LLM API, MCP"
+D2 Detection technique,How it recognises sensitive content inside the data,12,"Regex / Korean ID, keywords, EDM, document matching, OCR, HWP, archives, ML / LLM, source code, FP tuning"
+D3 Enforcement,What it can do once a violation is found,9,"Log, warn, block, redact then allow, DRM handoff, approval, shadow copy, watermark, at-rest fix"
+D4 AI-specific,Controls built for generative AI use,10,"Prompt and attachment inspection, response filtering, prompt injection, agent actions, off-network, shadow AI, audit log"
+D5 Operations and deployment,Where it runs and how it is managed,9,"Windows / macOS / Linux agents, VDI, SaaS, console, policy model, SIEM / NAC / MIP, on-prem AI"
+D6 Compliance and certification,Korean public-sector and certification fit,7,"CC / security verification, GS, procurement listing, N2SF C-S-O, ISMS-P, KCMVP, analyst recognition"
+Total,"D6-08 “Other certification” is free text, so it is not scored",60,

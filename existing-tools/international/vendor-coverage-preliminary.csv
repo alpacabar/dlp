@@ -1,0 +1,15 @@
+﻿Vendor,Endpoint,Network,Data-centric,AI
+Symantec (Broadcom),●,●,●,◐
+Forcepoint,●,●,●,?
+Trellix (formerly McAfee),●,●,●,◐
+Fortra Digital Guardian,●,●,◐,?
+Proofpoint,●,●,●,?
+Microsoft Purview,◐,◐,●,●
+Netskope,◐,●,●,●
+Zscaler,◐,●,●,●
+Palo Alto Networks,◐,●,◐,?
+Cyberhaven,●,◐,●,●
+Nightfall AI,◐,◐,◐,●
+Mimecast Incydr (formerly Code42),●,◐,○,◐
+Varonis (adjacent),,,●,◐
+Google Sensitive Data Protection (adjacent),,,●,

@@ -1,0 +1,8 @@
+﻿Vendor,Type,Main products,Positioning
+소만사 (Somansa),Endpoint · Network · AI,"Privacy-i, Mail-i, Server-i, WebKeeper AI DLP, Privacy-i AIDR (announced)",Broadest channel coverage; adding LLM detection and AI-agent visibility in 2026
+파수 (Fasoo),Data-centric · AI,"FED / FDR (DRM, discovery), AI-R DLP, AI-R Gateway, AI Radar",Policy travels with the document and is reused for AI uploads and LLM API calls
+컴트루 (Comtrue),"AI (plus endpoint, passive network)","Sphinx AI DLP, 셜록홈즈 PC정보보안, NetCenter","Strongest AI-era detection: LLM context, similarity, OCR, masking"
+마크애니 (MarkAny),Endpoint · Data-centric,"SafePC Enterprise, Document SAFER, PrintSAFER, Privacy SAFER","Deep endpoint control enforced on the PC, off-network too; KCMVP; rule-based detection"
+이로운앤컴퍼니 (eroun.ai),AI,AI security platform,"AI-native guardrail: prompt injection, usage and cost governance; no traditional channels"
+지란지교데이터 (Jiran),Endpoint · AI (partial),"PCFILTER, AIFILTER, SERVERFILTER, WEBFILTER","Endpoint DLP with AI detection (OCR, NER, HWP); logs prompts and AI responses"
+세이퍼존 (SaferZone),Endpoint · Email · AI (partial),"SaferZone DLP V10, SaferZone Email V10, AI DLP",Multi-OS endpoint and email DLP; AI control off-network; rule-based detection
