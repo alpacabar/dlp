@@ -1,7 +1,7 @@
 # Agent Behavioural Drift — Research Notes
 
 Working notes for the research strand on detecting agent behavioural drift from
-content-free tool-call telemetry. Separate from the DLP system itself.
+content-free tool-call telemetry. 
 
 **Status:** pre-experiment. Direction settled, data audit not yet done.
 **Last updated:** 2026-10-14
