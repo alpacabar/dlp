@@ -6,7 +6,8 @@ Collected notes, related work and references for Data Loss Prevention (DLP) rese
 
 | Strand | Where | Status |
 | --- | --- | --- |
-| Agent behavioural drift from content-free telemetry | [`agent-behavioural-drift/`](agent-behavioural-drift/) on `main` | Pre-experiment; Stage 0 data audit next |
+| Agentic DLP — how data leaves through AI agents | [`agentic-dlp/`](agentic-dlp/) on `main` | Literature map: 5 threat categories, benchmarks, defences, OWASP 2026, 2026-10-14 |
+| ↳ Agent behavioural drift from content-free telemetry | [`agentic-dlp/agent-behavioural-drift/`](agentic-dlp/agent-behavioural-drift/) on `main` | Pre-experiment; Stage 0 data audit next |
 | RAG for DLP — related work map | [`rag-for-dlp/`](https://github.com/alpacabar/dlp/tree/rag-for-dlp/rag-for-dlp) on the `rag-for-dlp` branch | Literature map, 2026-10-14 |
 
 ## Standards and policies
@@ -30,7 +31,8 @@ Topic branches start from `main`. Merge material back into `main` once it is sta
 
 ```
 .
-├── agent-behavioural-drift/  # Research strand: notes 01–06, figures, reading list
+├── agentic-dlp/              # Agentic DLP: threats, benchmarks, defences, standards, reading list
+│   └── agent-behavioural-drift/  # Sub-strand: notes 01–06, figures, reading list
 ├── standards-policies/       # Notes 01–08 on ISO, NIST, CSF 2.0, PIPA/ISMS-P, project mapping; references.bib
 ├── existing-tools/           # Competitor analysis: domestic scores and CSVs, international (WIP), slides
 ├── papers/                   # One note per paper, from papers/_template.md

@@ -1,0 +1,20 @@
+work,year,category,type,reference,verification,status
+Not what you've signed up for — indirect prompt injection (Greshake et al.),2023,T1,attack,https://arxiv.org/abs/2302.12173,VERIFIED (abstract),to-read
+InjecAgent (Zhan et al.),2024,T1,benchmark,https://arxiv.org/abs/2403.02691,VERIFIED (abstract),to-read
+EchoLeak — CVE-2025-32711 (Aim Security),2025,T1,incident,https://thehackernews.com/2025/06/zero-click-ai-vulnerability-exposes.html,VERIFIED (news report),to-read
+MCP tool poisoning (Invariant Labs),2025,T2,attack,https://invariantlabs.ai/blog/mcp-security-notification,VERIFIED (primary blog),to-read
+AgentPoison (Chen et al.),2024,T3,attack,https://arxiv.org/abs/2407.12784,VERIFIED (abstract),to-read
+PrivacyLens (Shao et al.),2024,T4,benchmark,https://arxiv.org/abs/2409.00138,VERIFIED (abstract),to-read
+AgentDAM (Zharmagambetov et al.),2025,T4,benchmark,https://arxiv.org/abs/2503.09780,VERIFIED (abstract),to-read
+AirGapAgent (Bagdasarian et al.),2024,T4,defence (minimisation),https://arxiv.org/abs/2405.05175,VERIFIED (abstract),to-read
+Open Challenges in Multi-Agent Security (Schroeder de Witt et al.),2025,T5,survey,https://arxiv.org/abs/2505.02077,VERIFIED (abstract),to-read
+AgentDojo (Debenedetti et al.),2024,T1,benchmark,https://arxiv.org/abs/2406.13352,VERIFIED (abstract),to-read
+CaMeL — Defeating Prompt Injections by Design (Debenedetti et al.),2025,T1,defence (IFC planner),https://arxiv.org/abs/2503.18813,VERIFIED (abstract),to-read
+FIDES — Securing AI Agents with Information-Flow Control (Costa et al.),2025,T1,defence (IFC planner),https://arxiv.org/abs/2505.23643,VERIFIED (abstract),to-read
+Progent — Programmable Privilege Control (Shi et al.),2025,T1,defence (tool-call policy),https://arxiv.org/abs/2504.11703,VERIFIED (abstract),to-read
+Towards Verifiably Safe Tool Use for LLM Agents (Doshi et al.),2026,T1/T2,defence (tool-call policy),https://alphaxiv.org/abs/2601.08012,VERIFIED (abstract),to-read
+MTGuard — Hybrid Analysis for Secure MCP Tool Use (He et al.),2026,T2,defence (tool sandbox),https://www.alphaxiv.org/abs/2607.25297,VERIFIED (abstract),to-read
+OWASP Top 10 for Agentic Applications,2026,T1–T5,standard,https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/,VERIFIED (list via secondary source),to-read
+ROPE — Routed Origin Policy Enforcement against Indirect Prompt Injection,2026,T1,defence,https://arxiv.org/pdf/2608.27496,not checked,to-read
+Indirect Prompt Injections: Are Firewalls All You Need or Stronger Benchmarks?,2025,T1,evaluation,https://arxiv.org/pdf/2510.05244,not checked,to-read
+Agent Security Bench (ASB),,T1/T2,benchmark,,not checked,to-read
