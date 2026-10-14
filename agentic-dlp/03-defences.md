@@ -12,7 +12,7 @@ Numbers ①–⑤ match the diagram in the [README](README.md). The further left
 | ④ | Inside the tool | [MTGuard — Hybrid Analysis for Secure MCP Tool Use](https://www.alphaxiv.org/abs/2607.25297) (He et al., Jul 2026) | Each MCP tool runs in a Docker sandbox monitored with eBPF; observed process/file/network behaviour compared with the declared call | Behaviour, not payload | 48.3% of 99 unsafe calls caught at 3.7% FPR (baselines 8.3%, 0%); 75% of host-side hijacks reading sensitive files | [VERIFIED] |
 | ⑤ | After the fact (taint audit) | NeuroTaint (2026) | Cross-session provenance graph; traces untrusted sources to privileged sinks | Yes | 28/30 cross-session positives; ~8% FP | [VERIFIED] in drift notes |
 | ⑤ | After the fact (single run) | APPA (2026) | Label-based taint confined to child branches at the tool-dispatch layer | No (labels) | Attack success 31–50% → 0–7% | [VERIFIED] in drift notes |
-| ⑤ | After the fact (telemetry) | Leong v3; DriftNet; **our drift strand** | Tool order / timing (Leong), step text (DriftNet), per-agent baseline (ours) | Leong & ours: no | See [`agent-behavioural-drift/03-positioning.md`](agent-behavioural-drift/03-positioning.md) | [FROM DECK] |
+| ⑤ | After the fact (telemetry) | Leong v3; DriftNet; **our proposed drift idea** | Tool order / timing (Leong), step text (DriftNet), per-agent baseline (ours) | Leong & ours: no | See [`agent-behavioural-drift/03-positioning.md`](agent-behavioural-drift/03-positioning.md) | [FROM DECK] |
 
 ## Patterns across the table
 
