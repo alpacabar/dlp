@@ -1,0 +1,27 @@
+title,year,strand,url,status
+PRvL: Quantifying the Capabilities and Risks of LLMs for PII Redaction,2025,A,https://arxiv.org/abs/2508.05545,to-read
+How Cato Uses LLMs to Improve DLP,2024,A,https://www.catonetworks.com/blog/how-cato-uses-large-language-models-to-improve-data-loss-prevention/,to-read
+TorchSight: Security Document Classification with a Fine-Tuned Local LLM,2026,A,https://arxiv.org/pdf/2605.20368,to-read
+Channel-Boosted Multi-Agent System for Document Sensitivity Classification,2026,A,https://arxiv.org/pdf/2609.22212,to-read
+NerGuard,,A,https://pypi.org/project/nerguard/,to-read
+SANS: LLMs as Sensitive Data Detectors,2026,A,https://www.sans.edu/cyber-research/your-sensitive-data-has-left-llms-sensitive-data-detectors,to-read
+DLP utilizing distilled LLMs (US patent),,A,https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/12711255,to-read
+Locale-Conditioned Few-Shot Prompting for On-Device PII Substitution,2026,A,https://arxiv.org/abs/2605.13538,to-read
+The Good and The Bad: Exploring Privacy Issues in RAG,2024,B,https://arxiv.org/abs/2402.16893,to-read
+Follow My Instruction and Spill the Beans,2025,B,https://arxiv.org/abs/2402.17840,to-read
+Is My Data in Your Retrieval Database? Membership Inference Attacks Against RAG,2024,B,https://arxiv.org/abs/2405.20446,to-read
+Riddle Me This! Stealthy Membership Inference for RAG,2025,B,https://huggingface.co/papers/2502.00306,to-read
+Text Embeddings Reveal (Almost) As Much As Text,2023,B,https://arxiv.org/pdf/2310.06816,to-read
+ALGEN: Few-shot Inversion Attacks on Textual Embeddings,2025,B,https://arxiv.org/pdf/2502.11308,to-read
+Zero2Text: Zero-Training Cross-Domain Inversion Attacks,2026,B,https://arxiv.org/html/2602.01757,to-read
+Inversion Attacks on Commercial Embedding Models,,B,https://escholarship.org/uc/item/92k8b7p9,to-read
+Towards Secure RAG: Preventing LLM Data Leaks with RBAC,2025,C,https://sol.sbc.org.br/index.php/bracis/article/view/40906,to-read
+RAG Classification and Access Control,2024,C,https://www.tdcommons.org/dpubs_series/7382,to-read
+VAGUE-Gate: Plug-and-Play Local-Privacy Shield for RAG,2025,C,https://preview.aclanthology.org/credits/2025.ijcnlp-long.194,to-read
+DP-SynRAG: Differentially Private Synthetic Text Generation for RAG,2026,C,https://arxiv.org/html/2510.06719v1,to-read
+Differentially private token generation for RAG,2024,C,https://arxiv.org/html/2412.19291v2,to-read
+TextCrafter: perturbation defence against embedding inversion,2025,C,https://arxiv.org/pdf/2509.17302v5,to-read
+FH Salzburg talk: Protecting Sensitive Data in RAG,2026,C,https://www.fh-salzburg.ac.at/fhs/aktuelles/veranstaltungen/2026/05/it-talk-protecting-sensitive-data-in-retrieval-augmented-generation-systems-for-large-language-models,to-read
+PrivComp-KG: Leveraging KG and LLMs for Privacy Policy Compliance Verification,2024,D,https://www.arxiv.org/pdf/2404.19744,to-read
+Teaching LLMs to Reason About Compliance,2024,D,https://ceur-ws.org/Vol-3816/paper63.pdf,to-read
+RAG Chatbot for Improved Regulatory Compliance (Fraunhofer),2024,D,https://publica.fraunhofer.de/handle/publica/482992,to-read
