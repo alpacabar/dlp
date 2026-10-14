@@ -1,6 +1,6 @@
 # DLP Research
 
-Collected notes, related work and references for Data Loss Prevention (DLP) research at S3Lab, Pusan National University.
+Collected notes, related work and references for Data Loss Prevention (DLP) research.
 
 ## Research strands
 
