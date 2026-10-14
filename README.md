@@ -1,73 +1,29 @@
-#  Data Loss Prevention Solution for Upload System 
+# DLP Research
 
-This project establishes a robust foundation for a Data Loss Prevention (DLP) solution by providing a secure and scalable file upload system using Flask.
+Collected notes, related work and references for Data Loss Prevention (DLP) research at S3Lab, Pusan National University.
 
-## Key Features
+## Branches
 
-- Secure File Uploads: Handles file uploads through an HTTP POST request with proper validation.
-- Structured Storage: Uploaded files are stored systematically in an organized directory (uploads).
-- JSON-based API: Responses are structured as JSON, providing clear success and error messages.
-- Extensible: Designed for easy integration into a full-fledged DLP solution.
+| Branch | Purpose |
+| --- | --- |
+| `main` | General DLP material: standards and policies, existing tools, papers, notes |
+| `rag-for-dlp` | Retrieval-augmented generation (RAG) as it relates to DLP: RAG as a detection technique, RAG pipelines as a leakage surface, defences, compliance reasoning |
 
-##  Quick Setup Guide
-### Prerequisites
-Ensure you have the following installed:
-- Python 3.8 or higher
-- pip (Python package manager)
+Topic branches start from `main`. Merge material back into `main` once it is stable.
 
-### Step 1: Clone the Repository
-Clone the GitHub repository to your local machine:
+## Layout
 
 ```
-git clone https://github.com/alpacabar/dlp
-cd dlp
+.
+├── standards-policies/   # Regulations, frameworks, policy templates (GDPR, PIPA, ISO 27001, NIST ...)
+├── existing-tools/       # Commercial and open-source DLP tools, feature notes
+├── papers/               # One note per paper, from papers/_template.md
+├── notes/                # Meeting notes, ideas, drafts
+└── reading-list.csv      # Master list of papers and their status
 ```
 
-### Step 2: Set Up the Virtual Environment
+## Adding a paper
 
-Create and activate a virtual environment:
-#### On Windows:
-```
-python -m venv venv
-venv\Scripts\activate
-```
-#### On macOS/Linux:
-```
-python3 -m venv venv
-source venv/bin/activate
-```
-
-### Step 3: Install Dependencies
-
-Install the required Python packages:
-```
-pip install -r requirements.txt
-```
-
-## Usage
-### Run the Flask Server
-Start the Flask server:
-```
-python server.py
-```
-The server will run at ```http://localhost:5000/.```
-
-### Test the /upload Endpoint
-Using Postman: 
-1. Open Postman and create a new POST request.
-2. Set the URL to:
-```
-http://localhost:5000/upload
-```
-3. Under the Body tab, select form-data.
-4. Add a key named ```file``` and attach any test file.
-5. Click Send.
-
-Using Python script: 
-Run the provided ```client.py``` script:
-```
-python client.py
-```
-This script uploads a test file and prints the server's response.
-
-
+1. Copy `papers/_template.md` to `papers/<first-author><year>-<short-title>.md`.
+2. Fill in the summary and the DLP relevance.
+3. Add a row to `reading-list.csv`.
