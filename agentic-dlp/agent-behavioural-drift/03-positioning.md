@@ -35,7 +35,7 @@ source, an egress tool (`send_email`) is the sink. The precondition filter is a 
 taint rule. This gives vocabulary a security supervisor already has, and it names the
 failure mode precisely.
 
-### Where it breaks — say this before someone else does
+### Where it breaks 
 Taint analysis tracks **data**. This work tracks **order**. There is no propagation:
 nothing establishes that the item recalled is the item sent, only that a recall preceded
 a send. A systems reviewer will say, correctly, that this is not taint tracking but
