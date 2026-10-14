@@ -1,0 +1,4 @@
+# local notes and standard PDFs (copyrighted — don't commit)
+*.pdf
+*.pptx
+.DS_Store
