@@ -38,6 +38,8 @@ Something planted earlier — in long-term memory or a retrieval store — fires
 
 **DLP reading:** the leak and its cause are sessions apart, so per-event inspection cannot connect them. Cross-session provenance or per-agent baselines are needed. RAG-store risks are mapped in detail on the `rag-for-dlp` branch.
 
+**More:** seven memory-poisoning attacks, a benchmark and six defences are compared in [`05-memory-poisoning.md`](05-memory-poisoning.md).
+
 ## T4 — Contextual over-sharing (no attacker)
 
 The agent discloses data it holds because it misjudges what is appropriate for the task or recipient. Framed as **contextual integrity** or **data minimisation**.

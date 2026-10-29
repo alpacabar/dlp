@@ -12,6 +12,7 @@ Classic DLP watches files and channels a human uses. An agent moves data through
 | [`02-benchmarks.md`](02-benchmarks.md) | Benchmarks that measure agent data leakage, and what each one measures |
 | [`03-defences.md`](03-defences.md) | Defences grouped by where they enforce: before context, at the planner, at the tool call, inside the tool, after the fact |
 | [`04-standards-and-industry.md`](04-standards-and-industry.md) | OWASP Agentic Top 10 (2026), links to our ISO/NIST notes, what Korean DLP vendors cover |
+| [`05-memory-poisoning.md`](05-memory-poisoning.md) | T3 in depth: 7 attacks, MPBench, 6 defences, and what they mean for the proposed drift idea (added 2026-10-29) |
 | [`reading-list.csv`](reading-list.csv) | Every work cited here, with category and verification status |
 | [`agent-behavioural-drift/`](agent-behavioural-drift/) | **Sub-strand:** detecting agent drift from content-free tool-call telemetry (Study 1 / Study 2) |
 
@@ -44,7 +45,7 @@ Controls ①–④ act inline and need to see content; ⑤ acts after the fact a
 |---|---|---|---|
 | T1 Injection-driven exfiltration | Yes, via content the agent reads | InjecAgent; EchoLeak (CVE-2025-32711) | IFC planners (CaMeL, FIDES); tool-call policy |
 | T2 Tool and supply-chain poisoning | Yes, via tool metadata | MCP tool poisoning (Invariant Labs, 2025) | Tool pinning; sandbox monitoring (MTGuard) |
-| T3 Memory and knowledge poisoning | Yes, planted earlier | AgentPoison; Leong (delayed) | Provenance across sessions; drift detection |
+| T3 Memory and knowledge poisoning | Yes, planted earlier | AgentPoison; Trojan Hippo (exfiltration); Leong (delayed) | Write-time origin binding (TMA-NM); drift detection — see [`05`](05-memory-poisoning.md) |
 | T4 Contextual over-sharing | **No** — the agent's own judgement | PrivacyLens; AgentDAM | Data minimisation (AirGapAgent) |
 | T5 Multi-agent propagation | No / covert channels | Open challenges in multi-agent security | Largely open |
 

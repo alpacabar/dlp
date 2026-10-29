@@ -18,3 +18,17 @@ OWASP Top 10 for Agentic Applications,2026,T1–T5,standard,https://genai.owasp.
 ROPE — Routed Origin Policy Enforcement against Indirect Prompt Injection,2026,T1,defence,https://arxiv.org/pdf/2608.27496,not checked,to-read
 Indirect Prompt Injections: Are Firewalls All You Need or Stronger Benchmarks?,2025,T1,evaluation,https://arxiv.org/pdf/2510.05244,not checked,to-read
 Agent Security Bench (ASB),,T1/T2,benchmark,,not checked,to-read
+MINJA — Memory Injection Attacks via Query-Only Interaction (Dong et al.),2025,T3,attack,https://arxiv.org/abs/2503.03704,VERIFIED (abstract via NeurIPS page),to-read
+MemoryGraft — Persistent Compromise via Poisoned Experience Retrieval,2025,T3,attack,https://arxiv.org/abs/2512.16962,VERIFIED (abstract via mirror),to-read
+Poison Once Exploit Forever — eTAMP (Zou et al.),2026,T3,attack,https://arxiv.org/abs/2604.02623,VERIFIED (abstract via alphaXiv),to-read
+Trojan Hippo — Weaponizing Agent Memory for Data Exfiltration (Das et al.),2026,T3,attack,https://arxiv.org/abs/2605.01970,VERIFIED (abstract via mirror),to-read
+Hidden in Memory — Sleeper Memory Poisoning (Pulipaka et al.),2026,T3,attack,https://arxiv.org/abs/2605.15338,VERIFIED (abstract via ICML page),to-read
+When Agents Remember Too Much — GhostWriter / AM-Sentry,2026,T3,attack + defence,https://arxiv.org/abs/2607.06595,VERIFIED (abstract via Hugging Face),to-read
+From Untrusted Input to Trusted Memory — MPBench (Dash et al.),2026,T3,survey + benchmark,https://arxiv.org/abs/2606.04329,VERIFIED (abstract via ICML page),to-read
+Memory Poisoning Attack and Defense on Memory Based LLM-Agents,2026,T3,defence (evaluation),https://arxiv.org/abs/2601.05504,VERIFIED (abstract via mirror),to-read
+A-MemGuard (Wei et al.),2025,T3,defence (consensus),https://arxiv.org/abs/2510.02373,VERIFIED (abstract via mirror),to-read
+TMA-NM — Non-Malleable Origin-Bound Authority (Louck),2026,T3,defence (provenance),https://arxiv.org/abs/2606.24322,VERIFIED (abstract via mirror),to-read
+When Does Belief-Based Agent Memory Help?,2026,T3,defence (provenance),https://arxiv.org/abs/2606.22030,TITLE ONLY,to-read
+MemSecBench,2026,T3,benchmark,https://arxiv.org/abs/2607.27080,not checked,to-read
+Memory Provenance Laundering — Non-Amplification Firewall,2026,T3,defence,https://arxiv.org/abs/2607.29167,not checked,to-read
+Utility Under Attack — Limits of Content Screening and Provenance Ranking,2026,T3,evaluation,https://arxiv.org/abs/2608.21230,not checked,to-read
