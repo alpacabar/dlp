@@ -32,3 +32,14 @@ When Does Belief-Based Agent Memory Help?,2026,T3,defence (provenance),https://a
 MemSecBench,2026,T3,benchmark,https://arxiv.org/abs/2607.27080,not checked,to-read
 Memory Provenance Laundering — Non-Amplification Firewall,2026,T3,defence,https://arxiv.org/abs/2607.29167,not checked,to-read
 Utility Under Attack — Limits of Content Screening and Provenance Ranking,2026,T3,evaluation,https://arxiv.org/abs/2608.21230,not checked,to-read
+Forensic Trajectory Signatures for Agent Memory Poisoning Detection (Leong) — cite latest version,2026,T3,detector (content-free),https://arxiv.org/abs/2606.30566,VERIFIED (abstract summaries; PDF not opened),to-read
+Injection–Execution Dissociation — persistent memory attacks and defences across layers (Leong),2026,T3,defence evaluation,https://arxiv.org/abs/2605.08442,VERIFIED (abstract via alphaXiv),to-read
+DriftNet — Dual-Head Trajectory Transformer (Pinjari & Saint-Germain),2026,T1,detector (content-based),https://arxiv.org/abs/2609.10892,VERIFIED (abstract via alphaXiv),to-read
+AgentDrift — Step-Labeled Benchmark of Injection-Hijacked Trajectories,2026,T1,benchmark,https://arxiv.org/abs/2609.06972,VERIFIED (title),to-read
+TraceAegis — Hierarchical and Behavioral Anomaly Detection,2025,T1,detector (content-free),https://arxiv.org/abs/2510.11203,PARTIAL (abstract; no numbers),to-read
+Skynet — Workflow-Level Anomaly Detection for Agentic AI,2026,T1/T3,detector (structure + categorical),https://arxiv.org/abs/2609.06835,VERIFIED (paper body),to-read
+SentinelAgent — Graph-based Anomaly Detection in Multi-Agent Systems,2025,T5,detector (LLM oversight),https://arxiv.org/abs/2505.24201,VERIFIED (abstract via mirror),to-read
+MCPShield — Content-Aware Attack Detection in Tool-Call Traffic (Zavrak),2026,T1/T2,detector (content-based),https://arxiv.org/abs/2605.11053,VERIFIED (abstract via chatpaper),to-read
+When Passing Tests Hides Vulnerabilities — Silent Failures in Agentic Systems (possible match),2026,T1,evaluation,https://arxiv.org/abs/2609.10548,not checked,to-read
+Trajectory Guard,,T1,detector (rule-based),,NOT FOUND,to-find
+OpenTelemetry temporal attack patterns (66.7% benign FPR; cited by MCPShield),,T1,detector (content-free),,NOT FOUND,to-find

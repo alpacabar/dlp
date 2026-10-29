@@ -43,7 +43,8 @@ did not survive checking. These are the ones still outstanding.
 | "Finding the rest meant scanning 141,006 runs" | **UNVERIFIED** | Same. |
 | "Nobody noticed from behaviour" | **UNVERIFIED** | This is a claim about *detection method*. The report may not support it. |
 | Lugoloobi et al., 96% F1 | **UNVERIFIED** | From a deck footnote. |
-| arXiv IDs for Leong / AgentDrift / DriftNet / LIDAR | **FROM DECK** | Re-check each. |
+| arXiv IDs for Leong / AgentDrift / DriftNet / LIDAR | **3 of 4 CONFIRMED** (2026-10-29) | Leong 2606.30566, AgentDrift 2609.06972 and DriftNet 2609.10892 match their titles. LIDAR still to check. |
+| Leong version history: "v2 (May 2026) → v3 (Sept 2026)" | **CHECK** | arXiv 2606 means v1 was June 2026. The preregistered follow-up already appears in v2 (24.7–52.6%, N=4,360); the latest version has the 24.7–57.6% / N=4,160 / ≤3.85% figures used here and says a recipient-metadata gate flags 129/129 legitimate emails. Numbers in these notes are right; the version dates are not. See `../06-trajectory-detection.md`. |
 | "Microsecond timestamps" | **WITHDRAWN** | Resolution was never checked. Do not repeat. |
 | Model names attached to the phenotype split | **WITHDRAWN** | Did not match the models in v3. |
 

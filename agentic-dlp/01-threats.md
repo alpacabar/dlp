@@ -34,7 +34,7 @@ Something planted earlier — in long-term memory or a retrieval store — fires
 | Work | What it shows | Mark |
 |---|---|---|
 | [AgentPoison](https://arxiv.org/abs/2407.12784) (Chen et al., 2024) | Backdoor via poisoned memory / knowledge-base entries with an optimised trigger. ≥80% average attack success on three agents (driving, QA, EHRAgent) at <0.1% poisoning rate, ≤1% benign drop. No model training needed | [VERIFIED] |
-| Leong, delayed memory poisoning (v2/v3, 2026) | Content-free detector over tool logs; v3 shows 24.7–57.6% false alarms on honest traffic. Details in [`agent-behavioural-drift/02-prior-art.md`](agent-behavioural-drift/02-prior-art.md) | [FROM DECK] |
+| [Leong, Forensic Trajectory Signatures](https://arxiv.org/abs/2606.30566) (2026; cite the latest version) | Content-free detector over tool logs; the latest version shows 24.7–57.6% false alarms on honest traffic. Details in [`agent-behavioural-drift/02-prior-art.md`](agent-behavioural-drift/02-prior-art.md) | [VERIFIED] |
 
 **DLP reading:** the leak and its cause are sessions apart, so per-event inspection cannot connect them. Cross-session provenance or per-agent baselines are needed. RAG-store risks are mapped in detail on the `rag-for-dlp` branch.
 

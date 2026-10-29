@@ -13,6 +13,7 @@ Classic DLP watches files and channels a human uses. An agent moves data through
 | [`03-defences.md`](03-defences.md) | Defences grouped by where they enforce: before context, at the planner, at the tool call, inside the tool, after the fact |
 | [`04-standards-and-industry.md`](04-standards-and-industry.md) | OWASP Agentic Top 10 (2026), links to our ISO/NIST notes, what Korean DLP vendors cover |
 | [`05-memory-poisoning.md`](05-memory-poisoning.md) | T3 in depth: 7 attacks, MPBench, 6 defences, and what they mean for the proposed drift idea (added 2026-10-29) |
+| [`06-trajectory-detection.md`](06-trajectory-detection.md) | Detectors that watch what an agent did (tool-call sequences, run graphs), split into content-free vs content-based (added 2026-10-29) |
 | [`reading-list.csv`](reading-list.csv) | Every work cited here, with category and verification status |
 | [`agent-behavioural-drift/`](agent-behavioural-drift/) | **Sub-strand:** detecting agent drift from content-free tool-call telemetry (Study 1 / Study 2) |
 
@@ -29,7 +30,7 @@ flowchart LR
     P --> TC["③ Tool-call gate<br/>Progent · verifiable policies"]
     TC --> T["④ Tool / MCP server<br/>MTGuard sandbox"]
     T --> OUT["External sink<br/>email, API, chat"]
-    TC -. spans .-> TEL["⑤ Telemetry & audit<br/>drift detection · taint audit"]
+    TC -. spans .-> TEL["⑤ Telemetry & audit<br/>trajectory detection · taint audit"]
 
     classDef ctl fill:#E8F0FE,stroke:#AAC0E4,color:#1A2333
     classDef risk fill:#FCE8E6,stroke:#E5B5B0,color:#1A2333
